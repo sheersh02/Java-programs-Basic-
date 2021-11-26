@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Sorting {
     public static void main(String args[]) {
         int marks[] = { 22, 13, 44, 5, 67, 19 };
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Select any one sorting algorithm.\n1.BubbleSort\n2.Selection Sort\nEnter your choice now.");
         int selectedSortAlgo = scan.nextInt();
