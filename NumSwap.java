@@ -6,10 +6,10 @@ class NumSwap {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("enter marks of first number");
+        System.out.println("Enter the first number");
         num1 = scan.nextInt();
 
-        System.out.println("enter marks of second number");
+        System.out.println("Enter the second number");
         num2 = scan.nextInt();
 
         temp = num1;
